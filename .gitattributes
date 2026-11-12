@@ -1,0 +1,23 @@
+# 文本文件统一按 LF 存储，检出时由 git 按平台转换
+* text=auto eol=lf
+
+# 二进制文件不做文本归一化
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.mp3   binary
+*.mp4   binary
+*.wav   binary
+*.zip   binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+
+# PowerShell 脚本保持 CRLF
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
